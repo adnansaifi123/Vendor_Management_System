@@ -56,7 +56,7 @@ class vendorDetail(APIView):
                 'status': "No Vendors found!!"
             }
             return Response(content,status=status.HTTP_400_BAD_REQUEST)
-        serializer=vendorsSerializer(vendor,data=request.data)
+        serializer=vendorsSerializer(vendor,data=request.data,partial=True)
         # print(serializer)
         if serializer.is_valid():
             # print(serializer.validated_data)

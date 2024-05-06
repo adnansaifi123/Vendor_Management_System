@@ -7,7 +7,7 @@ from vendor_performance.models import HistoricalPerformance
 
 
 
-@receiver([post_save,post_delete],sender=purchase_orders)
+@receiver([post_save],sender=purchase_orders)
 def update_metrics(sender, instance, **kwargs):
     print('Inside metrics calculation...')
     vendor=instance.vendor
