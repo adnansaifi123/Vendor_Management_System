@@ -45,20 +45,26 @@ Sample JSON for Creating a New Vendor
     "vendor_code": "SAMPLE002"
 }
 ````
-![img_1.png](img_2.png)
+
+![img_2](https://github.com/adnansaifi123/Vendor_Management_System/assets/67619920/8aa9b25a-e56e-4ce5-adfa-b92a7f99c4c8)
+
 #### 2.  ``GET/api/vendors/: List all vendors.``
-![img_2.png](img_4.png)
+![img_4](https://github.com/adnansaifi123/Vendor_Management_System/assets/67619920/9dff9ee7-b952-4e60-9bfe-c5e3393439ef)
+
 
 #### 3. ``GET/api/vendors/{vendor_id}/: Retrieve a specific vendor's details.``
-![img_5.png](img_5.png)
+![img_5](https://github.com/adnansaifi123/Vendor_Management_System/assets/67619920/1d83bc92-05f0-44b6-a311-04fb66b8e154)
+
 
 
 #### 4. ``PUT/api/vendors/{vendor_id}/: Update a vendor's details.``
-![img_6.png](img_6.png)
+![img_6](https://github.com/adnansaifi123/Vendor_Management_System/assets/67619920/08bfafd5-7983-41a8-854f-a2c2e0a23a9f)
+
 
 
 #### 5. ``DELETE/api/vendors/{vendor_id}/: Delete a vendor.``
-![img_7.png](img_7.png)
+![img_7](https://github.com/adnansaifi123/Vendor_Management_System/assets/67619920/750f0028-ab31-4482-81ce-625665d44f0e)
+
 
 
 ### Purchase Order Tracking:
@@ -85,28 +91,30 @@ Sample JSON for Creating a Purchase Order
     "status": "pending"
 }
 ````
-![img_14.png](img_14.png)
+![img_14](https://github.com/adnansaifi123/Vendor_Management_System/assets/67619920/26ba4e6d-99b1-4d09-9113-3eaac4c14275)
+
 
 #### 2 ``GET/api/purchase_orders/: List all purchase orders with an option to filter by  vendor``
-![img_9.png](img_9.png)
+![img_9](https://github.com/adnansaifi123/Vendor_Management_System/assets/67619920/9112d68b-cbe4-48b1-b893-390ba238b6ec)
+
 
 
 #### 3 ``GET/api/purchase_orders/{po_id}/: Retrieve details of a specific purchase order.``
-![img_10.png](img_10.png)
+![img_10](https://github.com/adnansaifi123/Vendor_Management_System/assets/67619920/76aedb05-c562-4f5e-b71e-faa6bb943005)
 
 #### 4 ``PUT/api/purchase_orders/{po_id}/: Update a purchase order``
-
-![img_11.png](img_11.png)
+![img_11](https://github.com/adnansaifi123/Vendor_Management_System/assets/67619920/b4584ae3-f3e6-4c45-a2bf-ce37abb6c908)
 
 Note: In this Vendor Management System, the performance metrics for vendors are recalculated whenever the status of a purchase order changes. This dynamic update ensures that metrics such as on-time delivery rate, quality rating average, average response time, and fulfillment rate are always up-to-date based on the latest data. 
-This approach to recalculating metrics ensures that our performance evaluations are accurate and reflect the current status of vendor performance.
-![img_12.png](img_12.png)
+This approach to recalculating metrics ensures that our performance evaluations are accurate and reflect the current status of vendor performance.![img_12](https://github.com/adnansaifi123/Vendor_Management_System/assets/67619920/7ed8cd83-426a-49aa-8db5-8bb155370bd3)
+
 
 #### 5 ``DELETE/api/purchase_orders/{po_id}/: Delete a purchase order.``
-![img_13.png](img_13.png)
+![img_13](https://github.com/adnansaifi123/Vendor_Management_System/assets/67619920/bc8b0b0b-4a7f-4619-9df5-0b42a423821f)
+
 
 #### 6 ``POST/api/purchase_orders/{po_id}/acknowledge : Update Acknowledgement Date``
-![img_15.png](img_15.png)
+![img_15](https://github.com/adnansaifi123/Vendor_Management_System/assets/67619920/adc49521-2da6-46aa-b8e3-2ae21c0eb513)
 
 ### Vendor Performance Evaluation
 ````
@@ -114,5 +122,4 @@ This approach to recalculating metrics ensures that our performance evaluations 
  ● GET/api/vendors/{vendor_id}/performance: Retrieve a vendor's performance
  metrics
 ````
-
-![img_16.png](img_16.png)
+![img_16](https://github.com/adnansaifi123/Vendor_Management_System/assets/67619920/23c8d107-c53e-432a-802d-eda5334bc9af)
